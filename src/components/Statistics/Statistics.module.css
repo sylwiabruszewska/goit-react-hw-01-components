@@ -1,17 +1,19 @@
 .statistics {
-  width: fit-content;
+  width: 400px;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
+  overflow: hidden;
   margin: 50px 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .title {
   margin: 20px 0;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
   color: rgb(72, 72, 72);
@@ -19,6 +21,7 @@
 
 .stat-list {
   display: flex;
+  width: 400px;
 }
 
 .item {
