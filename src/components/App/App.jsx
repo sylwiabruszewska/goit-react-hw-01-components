@@ -1,3 +1,5 @@
+import css from './App.module.css';
+
 import user from 'data/user.json';
 import data from 'data/data.json';
 import friends from 'data/friends.json';
@@ -12,7 +14,7 @@ export const App = () => {
   const { username, tag, location, avatar, stats } = user;
 
   return (
-    <div>
+    <div className={css.container}>
       <Profile
         username={username}
         tag={tag}
